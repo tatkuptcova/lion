@@ -135,12 +135,17 @@ img {
   position: absolute;
   top: 408px;
   left: 440px;
-  transition: transform 0.3s ease-in;
 }
 
-.promo__text-lion:hover {
-  transform: scale(0.95);
+.promo__text-I {
+  position: absolute;
+  top:408px;
+  right: 1192px;
+  left: 671px;
+  bottom: 1209px;
+  z-index: 200;
 }
+
 
 .promo__text {
   position: absolute;
@@ -148,6 +153,7 @@ img {
   right: 147px;
   width: 429px;
 }
+
 
 .promo__text h2 {
   text-transform: uppercase;
@@ -199,4 +205,11 @@ img {
 
 .button svg {
   fill: #ffffff;
+}
+
+.button__link {
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
 }
